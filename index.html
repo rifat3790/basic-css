@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+    <link rel="stylesheet" href="styles/blog.css">
+</head>
+<body>
+    <div class="blog">
+        <h3>Java Abstraction</h3>
+        <p>
+            <h5>Abstract Classes and Methods</h5>
+            
+            Data abstraction is the process of hiding certain details and showing only essential information to the user.
+Abstraction can be achieved with either abstract classes or interfaces (which you will learn more about in the next chapter).
+
+The abstract keyword is a non-access modifier, used for classes and methods:
+<br><br>
+1. <span class="abstract">Abstract class:</span> is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+<br><br>
+2. <span class="abstract">Abstract method:</span> can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+
+        </p>
+    </div>
+
+    <div class="blog">
+        <h3>Java Interface</h3>
+        <p>
+            <h5>Interfaces</h5>
+
+            Another way to achieve abstraction in Java, is with interfaces.An interface is a completely "abstract class" that is used to group related methods with empty bodies:
+            <br><br>
+
+            <span id="span">Example:</span><br>
+            <span id="interface">
+                interface Animal {
+                    public void animalSound(); // interface method (does not have a body)
+                    public void run(); // interface method (does not have a body)
+                  }
+            </span>
+        </p>
+    </div>
+</body>
+</html>

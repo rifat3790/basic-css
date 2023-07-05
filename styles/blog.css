@@ -16,3 +16,9 @@
 #interface{
     background-color: blueviolet;
 }
+.image{
+    background-image: url(gettyimages2.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
